@@ -1,0 +1,14 @@
+torch
+torchvision
+gdown >= 4.4.0
+torchaudio
+librosa
+matplotlib
+tensorboard
+ipython >= 7.0
+ipykernel
+tqdm
+librosa
+numpy
+seaborn
+torchsummary
