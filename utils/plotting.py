@@ -30,6 +30,9 @@ def plot_data(data: np.ndarray,
     assert data.ndim == 2
     assert data.shape[-1] == 2
 
+    if type(data) == torch.Tensor:
+        data = data.numpy()
+
     # plot the data
     pos_idx = np.where(labels == 1)
     neg_idx = np.where(labels == -1)
