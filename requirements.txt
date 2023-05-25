@@ -12,3 +12,5 @@ librosa
 numpy
 seaborn
 torchsummary
+datasets
+transformers
